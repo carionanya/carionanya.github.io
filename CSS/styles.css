@@ -310,13 +310,16 @@ h4 {
   width:17%;
   position: absolute;
   top:5%;
-  left:3%;
+  left:5%;
 	  transform:rotate(-15deg);}
 	
 
   .left2,.right2 {
     background-size: cover;
   }
+.right2{
+	padding-bottom: 10%;
+	}
 
   .anyaProfile {
     width: 40%;
