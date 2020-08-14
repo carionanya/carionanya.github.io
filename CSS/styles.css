@@ -307,8 +307,12 @@ h4 {
   }
 
   .pow {
-    display:none!important;
-  }
+  width:17%;
+  position: absolute;
+  top:5%;
+  left:3%;
+	  transform:rotate(-15deg);}
+	
 
   .left2,.right2 {
     background-size: cover;
