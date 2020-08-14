@@ -1,0 +1,275 @@
+h2 {
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #3a96cf
+}
+
+.navbar {
+  padding-top: 0;
+}
+
+/* Introduction */
+.intro {
+  background-image: url('../images/background-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #3a96cf;
+  margin: 0;
+  color: #fff;
+}
+
+.anyaProfile {
+  width: 25%;
+  border-radius: 50%
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 3%;
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+  font-family: 'Bangers', cursive;
+}
+
+.subheading {
+  margin: 3% 0 0;
+  padding-bottom: 4%;
+}
+
+/* Div Break */
+.comicBreak {
+  background-color:#3a96cf;
+  height:1.5rem;
+}
+
+/* IR blip */
+
+
+.column {
+  float: left;
+  padding: 10px;
+  flex:32%;
+}
+
+.left, .middle, .right {
+  width: 32.6%;
+  border-color: black;
+  border-style: solid;
+  padding-top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #fff;
+}
+
+.left {
+  background-image: url("../images/edinburgh.jpeg");
+  margin-right:1%;
+}
+
+.currently {
+  font-family: 'Bangers', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  padding-left: 7%;
+  width: 50%;
+}
+
+.ediText {
+  padding: 2%;
+  margin: 5%;
+  text-align: justify;
+  border-style: solid;
+  background-color: #fff;
+}
+
+.middle {
+  padding-top: 10px;
+  background-image: url("../images/IMG_2148.JPG");
+  margin-right:1%;
+}
+
+.IR {
+  width: 100%;
+}
+
+.right {
+  background-image: url("../images/singapore.jpg");
+  padding: 0;
+  margin-right:1%;
+
+}
+
+.irTalk {
+  padding: 2% 4%;
+  text-align: justify;
+  border-style: solid;
+  background-color: #fff;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+/* Cartoon 2 Section */
+
+.column2 {
+  flex: 45%;
+}
+
+.left2, .right2 {
+  width:49%;
+  height:350px;
+  border-color: black;
+  border-style: solid;
+  padding-top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+}
+
+.left2 {
+  background-image: url("../images/hiking.jpeg");
+  padding-right:0;
+}
+
+.blog {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  background-color: #fff;
+  padding:1%;
+}
+
+.right2 {
+  border-right-style: solid;
+  background-image: url("../images/laptop.jpeg");
+  margin-left:1%;
+  padding-left: 0;
+
+}
+.grad {
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  border-top-style: none;
+  border-left-style: none;
+  width:80%;
+  padding:2%;
+  text-align:justify;
+}
+
+/* My Skills */
+
+.mySkills {
+  background-color: #d1c843;
+  position:relative;
+  border-style: solid;
+  border-color: black;
+}
+
+.skillstext {
+  display:inline-block;
+  background-color: #fff;
+  margin:3%;
+  padding: 2%;
+  border-style: solid;
+  border-color: black;
+}
+
+.pow {
+  width:17%;
+  position: absolute;
+  top:1.5rem;
+  left:10rem;
+  transform:rotate(-15deg);
+
+}
+h3 {
+  padding-top:3%;
+  font-size: 3rem;
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 0.1rem;
+  padding-bottom:3%;
+}
+
+
+
+h4 {
+  text-align: center;
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.myButton {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #3a96cf 5%, #019ad2 100%);
+	background-color: #3a96cf;
+	border-radius:6px;
+	border:1px solid #3a96cf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Bangers', sans-serif;
+  letter-spacing: 0.1rem;
+	font-size:15px;
+	padding:12px 22px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer{
+  padding: 5% 0 3%;
+  color:#fff;
+}
+
+.footer-icon {
+  color:#fff;
+  padding:5px;
+}
+
+.footertext {
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+  .col {
+    flex: 100%;
+    padding: 0 5% 20% 0;
+    margin-bottom:3%;
+  }
+
+  .right, .left2{
+    padding-right:0;
+  }
+
+  .middle{
+  padding-bottom:0;
+}
+  .left, .middle, .right {
+    margin-right:0;
+  }
+}
