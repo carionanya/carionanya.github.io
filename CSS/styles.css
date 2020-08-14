@@ -22,13 +22,6 @@ html,body
     overflow-x: hidden;
 }
 
-html {
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .navbar {
   padding-top: 0;
 }
@@ -312,13 +305,13 @@ h4 {
   p {
     font-size: 1rem;
   }
-	
-	.right {
-		padding-bottom: 10%;
-	}
 
-.left2,.right2 {
-    background-size: 500px;
+  .pow {
+    display:none!important;
+  }
+
+  .left2,.right2 {
+    background-size: cover;
   }
 
   .anyaProfile {
@@ -330,4 +323,5 @@ h4 {
     padding-top: 3%;
   }
 }
+
 
