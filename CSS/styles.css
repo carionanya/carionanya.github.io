@@ -147,6 +147,8 @@ h1 {
 .left2 {
   background-image: url("../images/hiking.jpeg");
 	padding-left:0;
+	border-left-style:solid;
+	border-left-style:black;
 }
 
 .blog {
