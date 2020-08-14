@@ -2,6 +2,7 @@
 h2 {
   font-family: 'Bangers', sans-serif;
   letter-spacing: 0.1rem;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
   background-image: url('../images/background-img.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-color: #3a96cf;
   margin: 0;
   color: #fff;
@@ -29,7 +30,7 @@ body {
 
 .anyaProfile {
   width: 25%;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 h1 {
@@ -38,6 +39,7 @@ h1 {
   font-size: 5rem;
   letter-spacing: 0.1rem;
   font-family: 'Bangers', cursive;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .subheading {
@@ -160,7 +162,7 @@ h1 {
   background-image: url("../images/laptop.jpeg");
   padding-right: 0;
   margin-right: 1%;
-  margin:left:1%;
+  margin-left:1%;
 
 }
 .grad {
@@ -190,6 +192,7 @@ h1 {
   padding: 2%;
   border-style: solid;
   border-color: black;
+  border-radius: 50px;
 }
 
 .pow {
@@ -244,6 +247,7 @@ h4 {
 .footer{
   padding: 5% 0 3%;
   color:#fff;
+  /* background-image:url("../images/dots.png"); */
 }
 
 .footer-icon {
@@ -261,6 +265,8 @@ h4 {
   flex-wrap: wrap;
 }
 
+/* Responsive Site */
+
 @media screen and (max-width: 992px) {
   .col {
     flex: 100%;
@@ -277,5 +283,21 @@ h4 {
 }
   .left, .middle, .right {
     margin-right:0;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .anyaProfile {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .navbar {
+    padding-top: 3%;
   }
 }
