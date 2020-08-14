@@ -305,9 +305,13 @@ h4 {
   p {
     font-size: 1rem;
   }
+	
+	.right {
+		padding-bottom:30%;
+	}
 
 .left2,.right2 {
-    background-size: cover;
+    background-size: 100%;
   }
 
   .anyaProfile {
